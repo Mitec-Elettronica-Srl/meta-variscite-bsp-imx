@@ -20,7 +20,7 @@ KERNEL_SRC ?= "git://github.com/Mitec-Elettronica-Srl/linux-imx;protocol=https"
 
 SRCBRANCH = "scarthgap"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
-SRCREV = "fded03ef51de5a07df312bb8e4641093b993c403"
+SRCREV = "dac18e7d347be986d8a3e7df6b18d3df4399dec3"
 
 LINUX_VERSION = "6.6.53"
 LINUX_VERSION_EXTENSION = "-var-lts-next"
