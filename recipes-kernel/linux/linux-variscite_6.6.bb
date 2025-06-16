@@ -22,7 +22,7 @@ SRCBRANCH = "scarthgap"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
 SRCREV = "fded03ef51de5a07df312bb8e4641093b993c403"
 
-LINUX_VERSION = "6.6.52"
+LINUX_VERSION = "6.6.53"
 LINUX_VERSION_EXTENSION = "-var-lts-next"
 
 KBUILD_DEFCONFIG:mx6-nxp-bsp = "imx_v7_var_defconfig"
