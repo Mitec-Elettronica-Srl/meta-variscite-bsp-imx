@@ -6,7 +6,7 @@
 SUMMARY = "Linux kernel provided and supported by Variscite"
 DESCRIPTION = "Linux kernel provided and supported by Variscite (based on the kernel provided by NXP) \
 with focus on i.MX Family SOMs. It includes support for many IPs such as GPU, VPU and IPU."
-HOMEPAGE = "https://github.com/varigit/linux-imx"
+HOMEPAGE = "https://github.com/Mitec-Elettronica-Srl/linux-imx"
 
 require recipes-kernel/linux/linux-imx.inc
 LICENSE = "GPL-2.0-only"
@@ -16,11 +16,11 @@ DEPENDS += "bc-native lzop-native"
 
 DEFAULT_PREFERENCE = "1"
 
-KERNEL_SRC ?= "git://github.com/varigit/linux-imx;protocol=https"
+KERNEL_SRC ?= "git://github.com/Mitec-Elettronica-Srl/linux-imx;protocol=https"
 
-SRCBRANCH = "lf-6.6.y_6.6.52-2.2.0_var01"
+SRCBRANCH = "scarthgap"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
-SRCREV = "168ca6166204bd24090dffe5d4047d0c202e8d30"
+SRCREV = "fded03ef51de5a07df312bb8e4641093b993c403"
 
 LINUX_VERSION = "6.6.52"
 LINUX_VERSION_EXTENSION = "-var-lts-next"
