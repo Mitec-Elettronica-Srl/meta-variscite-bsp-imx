@@ -3,7 +3,7 @@ LIC_FILES_CHKSUM = "file://Licenses/gpl-2.0.txt;md5=b234ee4d69f5fce4486a80fdaf4a
 
 DEPENDS += "bison-native"
 
-UBOOT_SRC ?= "git://github.com/varigit/uboot-imx;protocol=https"
+UBOOT_SRC ?= "git://github.com/Mitec-Elettronica-Srl/uboot-imx;protocol=https"
 
 SRCBRANCH = "scarthgap"
 SRCREV = "445b152ace45e4d20342a639c19f49b780056ce1"
